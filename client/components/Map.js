@@ -69,8 +69,6 @@ class Map extends React.Component{
   render(){
     const rows = new Array(this.ROWS).fill(0)
     const {bots, nodes} = this.state
-    // console.log(bots)
-    // console.log(nodes)
     return (
       <div id="map">
         {

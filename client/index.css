@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+#main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+#title{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
 #map{
   display: flex;
   flex-direction: column;
@@ -15,6 +28,9 @@
 }
 
 .cell{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: darkgray;
   border: 1px solid white;
   width: 40px;
