@@ -1,18 +1,7 @@
 import React from 'react'
 
-class Main extends React.Component{
-  constructor(){
-    super()
-    this.state = {}
-  }
+import Map from './Map'
 
-  render(){
-    return (
-      <div id="css-sampler">
-        boilerplate
-      </div>
-    )
-  }
-}
+const Main = () => <Map/>
 
 export default Main
