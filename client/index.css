@@ -4,6 +4,31 @@
   box-sizing: border-box;
 }
 
-#css-sampler{
-  color: red;
+#map{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.cell{
+  background-color: darkgray;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+}
+
+.bot{
+  background-color: red;
+}
+
+.node{
+  background-color: blue;
+}
+
+.both{
+  background-color: purple
 }
