@@ -2,6 +2,8 @@
 
 This https://www.headlightlabs.com/tournament !
 
+NOTE: Unlike master, the branch has had some work done since the challenge ended.
+
 Heroku Instructions:
   Just link the github repo to Heroku through master branch AND make sure to set the env variable NPM_CONFIG_PRODUCTION to false !! This is hacky as hell but it lets Heroku bundle the app with webpack (and also will keep it from erroring out when using Volleyball on the server (Volleyball is a devdependency))
 

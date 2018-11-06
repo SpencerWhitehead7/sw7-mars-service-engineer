@@ -9,12 +9,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh
 }
 
 #title{
   margin-top: 5vh;
   margin-bottom: 5vh;
+}
+
+#legend span{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#legend-bots{
+  color: red
+}
+
+#legend-nodes{
+  color: blue
+}
+
+#legend-bot-on-node{
+  color: purple
 }
 
 #map{
@@ -33,6 +49,7 @@
   align-items: center;
   background-color: darkgray;
   border: 1px solid white;
+  color: white;
   width: 40px;
   height: 40px;
 }
